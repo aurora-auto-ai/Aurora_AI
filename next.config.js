@@ -3,8 +3,9 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
+
   images: {
-    domains: ["upload.wikimedia.org"],
+    domains: ["links.papareact.com", "lh3.googleusercontent.com"],
   },
 };
 
