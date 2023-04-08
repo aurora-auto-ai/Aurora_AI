@@ -5,7 +5,6 @@ import { useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
 import { db } from "../../../firebase";
 
-
 export function NewChat() {
   const router = useRouter();
   const { data: session } = useSession();
@@ -22,9 +21,13 @@ export function NewChat() {
     router.push(`/chat/${doc.id}`);
   };
   return (
-    <div className="justify-center" onClick={createNewChat}>
+    <label
+      htmlFor="my-drawer"
+      className="drawer-button flex justify-center "
+      onClick={createNewChat}
+    >
       <PlusIcon className=" h-4 w-4" />
-      <p>New Chat</p>
-    </div>
+      Novo Chat
+    </label>
   );
 }

@@ -32,19 +32,24 @@ export default function ChatRow({ id }: Props) {
     router.replace("/");
   };
 
+  const HandleChatClicked = () => {
+    router.push(`/chat/${id}`);
+  };
+
   return (
-    <Link
-      href={`/chat/${id}`}
+    <label
+      htmlFor="my-drawer"
       className={` justify-center ${active && "bg-gray-700/50"}`}
+      onClick={HandleChatClicked}
     >
       <ChatBubbleLeftIcon className="h-5 w-5" />
       <p className="">
-        {messages?.docs[messages?.docs.length -1]?.data().text || "New Chat"}
+        {messages?.docs[messages?.docs.length - 1]?.data().text || "Novo Chat"}
       </p>
       <TrashIcon
         onClick={removeChat}
         className="h-5 w-5 text-gray-700 hover:text-red-500"
       />
-    </Link>
+    </label>
   );
 }

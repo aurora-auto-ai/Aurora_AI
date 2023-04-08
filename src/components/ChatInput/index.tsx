@@ -77,7 +77,7 @@ export default function ChatInput({ chatId }: Props) {
           disabled:cursor-not-allowed disabled:text-gray-300"
           type="text"
           value={prompt}
-          placeholder="type your message here..."
+          placeholder="digite sua mensagem aqui..."
           onChange={(e) => setprompt(e.currentTarget.value)}
         />
         <button

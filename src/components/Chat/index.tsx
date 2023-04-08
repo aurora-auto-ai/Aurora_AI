@@ -32,7 +32,7 @@ export default function Chat({ chatId }: Props) {
       {messages?.empty && (
         <>
           <p className="mt-10 text-center text-white">
-            Type a prompt in below to get Started!
+            Digite um prompt abaixo para começar!
           </p>
           <ArrowDownCircleIcon className="h-10 w-10 mx-auto mt-5 text-white animate-bounce" />
         </>
