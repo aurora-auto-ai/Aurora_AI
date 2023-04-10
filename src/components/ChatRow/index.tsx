@@ -43,7 +43,7 @@ export default function ChatRow({ id }: Props) {
       onClick={HandleChatClicked}
     >
       <ChatBubbleLeftIcon className="h-5 w-5" />
-      <p className="">
+      <p className="truncate flex-1 w-20 ">
         {messages?.docs[messages?.docs.length - 1]?.data().text || "Novo Chat"}
       </p>
       <TrashIcon
