@@ -14,36 +14,39 @@ export default function Home() {
           <div>
             <div className="flex flex-col items-center justify-center mb-5">
               <SunIcon className="h-6 w-6 text-white" />
-              <h2>Examples</h2>
+              <h2>Exemplos</h2>
             </div>
             <div className="space-y-2">
-              <p className="infoText">Explain something to me</p>
-              <p className="infoText">Some Random Example text</p>
-              <p className="infoText">Some Random Example text2</p>
+              <p className="infoText">Explique-me algo</p>
+              <p className="infoText">
+                Qual é a diferença entre um cão e um gato?
+              </p>
             </div>
           </div>
           <div className="hidden md:inline">
             <div className="flex flex-col items-center justify-center mb-5">
               <SunIcon className="h-6 w-6 text-white" />
 
-              <h2>Examples</h2>
+              <h2>Capacidades</h2>
             </div>
             <div className="space-y-2 ">
-              <p className="infoText">Explain something to me</p>
-              <p className="infoText">Some Random Example text</p>
-              <p className="infoText">Some Random Example text2</p>
+              <p className="infoText">Alterar o modelo ChatGPT a ser usado</p>
+              <p className="infoText">
+                As mensagens são armazenadas no firesbase
+              </p>
             </div>
           </div>
           <div className="hidden md:inline">
             <div className="flex flex-col items-center justify-center mb-5">
               <SunIcon className="h-6 w-6 text-white" />
 
-              <h2>Examples</h2>
+              <h2>Limitações</h2>
             </div>
             <div className="space-y-2">
-              <p className="infoText">Explain something to me</p>
-              <p className="infoText">Some Random Example text</p>
-              <p className="infoText">Some Random Example text2</p>
+              <p className="infoText">Pode gerar informações incorretas</p>
+              <p className="infoText">
+                Informações limitadas a eventos até 2021
+              </p>
             </div>
           </div>
         </div>
