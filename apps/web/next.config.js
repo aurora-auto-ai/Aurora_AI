@@ -1,4 +1,9 @@
+/** @type {import('next').NextConfig} */
+
 module.exports = {
   reactStrictMode: true,
-  transpilePackages: ["ui"],
+  transpilePackages: ["@aurora_ai/ui"],
+  experimental: {
+    serverActions: true,
+  },
 };

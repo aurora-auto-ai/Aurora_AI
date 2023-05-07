@@ -1,6 +1,11 @@
 {
   "name": "@aurora_ai/web",
   "version": "1.0.0",
+  "author": {
+    "name": "Aurimar Lopes",
+    "email": "aurimardev@gmail.com",
+    "url": "https://github.com/AurimarL"
+  },
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,17 +14,22 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@aurora_ai/ui": "*",
+    "daisyui": "^2.51.6",
     "next": "^13.4.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "@aurora_ai/ui": "*"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@aurora_ai/eslint-config-custom": "*",
+    "@aurora_ai/tailwind-config": "*",
+    "@aurora_ai/tsconfig": "*",
     "@types/node": "^17.0.12",
     "@types/react": "^18.0.22",
     "@types/react-dom": "^18.0.7",
-    "@aurora_ai/eslint-config-custom": "*",
-    "@aurora_ai/tsconfig": "*",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.2",
     "typescript": "^4.5.3"
   }
 }

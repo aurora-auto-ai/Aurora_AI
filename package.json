@@ -9,8 +9,11 @@
   },
   "devDependencies": {
     "@aurora_ai/eslint-config-custom": "*",
+    "autoprefixer": "^10.4.14",
     "eslint": "^7.32.0",
+    "postcss": "^8.4.23",
     "prettier": "^2.5.1",
+    "tailwindcss": "^3.3.2",
     "turbo": "^1.9.3"
   },
   "packageManager": "yarn@1.22.19",
@@ -19,6 +22,8 @@
     "packages/*"
   ],
   "dependencies": {
+    "daisyui": "^2.51.6",
+    "hnswlib-node": "^1.4.2",
     "langchain": "^0.0.70",
     "puppeteer": "^20.1.1"
   }
