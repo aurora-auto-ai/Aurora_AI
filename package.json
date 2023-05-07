@@ -1,6 +1,11 @@
 {
   "name": "aurora_ai",
   "private": true,
+  "author": {
+    "name": "Aurimar Lopes",
+    "email": "aurimardev@gmail.com",
+    "url": "https://github.com/AurimarL"
+  },
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",

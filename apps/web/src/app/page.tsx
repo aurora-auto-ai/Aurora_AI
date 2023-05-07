@@ -1,7 +1,6 @@
 "use client";
-import { Button } from "@aurora_ai/ui";
 import { useState } from "react";
-import Main from "../core";
+import Main from "../../server/core";
 
 export default function Page() {
   const [aiName, setAiName] = useState("Aurora Ai");
@@ -18,7 +17,6 @@ export default function Page() {
   }
   return (
     <main>
-      <Button />
       <div>
         <input
           className=""
